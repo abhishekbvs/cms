@@ -37,7 +37,6 @@ class RecordLeaveToday(graphene.Mutation):
 
 
 class Mutation(object):
-    LogAttendance = LogAttendance.Field()
     RecordLeaveToday = RecordLeaveToday.Field()
 
 
